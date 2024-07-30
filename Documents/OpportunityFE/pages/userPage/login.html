@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="login.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.11.1/toastify.min.css">
+</head>
+<body>
+
+<h2 class="log-text"> Login Form</h2>
+<!-- 
+<div class="back"><a  href="../index.html"><img src="../images/back.png"></a></div>
+<div class="hide">Go back to home page</div> -->
+
+<!-- <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button> -->
+<h1 style="color: brown;">Login to your account</h1>
+<div id="toast-container" class="toast-container"></div>
+<div id="log" class="modal">
+ 
+  <form class="modal-content animate"  id="loginForm" method="post">
+   
+
+    <div class="container">
+     
+      
+      <label for="uname"><b>Email</b></label>
+      <input type="text"id="email" placeholder="Enter Username" name="uname">
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" id="password" placeholder="Enter Password" name="psw">
+        
+      <a><button type="submit">Login</button></a>
+      <P>OR</P>
+      <button>Login With Google</button>
+    
+    </div>
+
+    <div class="container">
+       <span class="sign">You do not have account <a href="../form.html">SignUp</a></span>
+    </div>
+    
+  </form>
+</div>
+
+<script src="./login.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.11.1/toastify.min.js"></script>
+
+</body>
+</html>
+

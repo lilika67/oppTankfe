@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="./adminDash.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>Admin Dashboard</h2>
+      </div>
+      <ul class="sidebar-menu">
+        <li><a href="#messages">Messages</a></li>
+        <li><a href="#users">Users</a></li>
+        <li><a href="#talents">Talents</a></li>
+        <li><a href="#jobs">Jobs</a></li>
+      </ul>
+    </aside>
+    <main class="main-content">
+      <section id="messages">
+        <h1>Messages</h1>
+        <table class="messages-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Sender</th>
+              <th>Message</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Alice</td>
+              <td>Hello, I need help with my account</td>
+              <td>2024-07-27</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Bob</td>
+              <td>Can you update my profile?</td>
+              <td>2024-07-26</td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </section>
+      <section id="users">
+        <h1>Users</h1>
+        <table class="users-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>FirstName</th>
+              <th>LastName</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>John Doe</td>
+              <td>johndoe@example.com</td>
+              <td>Admin</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Jane Smith</td>
+              <td>janesmith@example.com</td>
+              <td>User</td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </section>
+      <section id="talents">
+        <h1>Talents</h1>
+        <p>Content for Talents</p>
+      </section>
+      <section id="jobs">
+        <h1>Jobs</h1>
+        <table class="jobs-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Title</th>
+              <th>Company</th>
+              <th>Location</th>
+              <th>Date Posted</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Software Engineer</td>
+              <td>Example Corp</td>
+              <td>New York, NY</td>
+              <td>2024-07-25</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Data Scientist</td>
+              <td>Data Inc</td>
+              <td>San Francisco, CA</td>
+              <td>2024-07-24</td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+  <script src="../AdminPage/adminDash.js"></script>
+</body>
+</html>

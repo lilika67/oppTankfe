@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Listings</title>
+  <link rel="stylesheet" href="./job.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav class="navbar">
+        <div class="nav-logo">
+          <a href="#">Job Portal</a>
+        </div>
+        <ul class="nav-links">
+         
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./resource.html">Resources</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="../homepage.html">Logout</a></li>
+          <li><a href="#" id="view-jobs-link">View All Jobs</a></li>
+        </ul>
+      </nav>
+      <h1 class="title">Available Jobs</h1>
+    </header>
+    <main>
+    
+      <section class="job-listings" id="job-listings">
+        <!-- Example Job Card -->
+        <div class="job-card">
+          <h3 class="job-title">Software Engineer</h3>
+          <p class="job-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button class="apply-button">Apply Now</button>
+        </div>
+        <!-- Add more job cards here -->
+      </section>
+    </main>
+
+    <div id="apply-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Apply for Job</h2>
+        <form id="form" class="apply-form" action="https://api.web3forms.com/submit">
+          <input type="hidden" name="access_key" value="0ae78cc7-88a9-4c90-ab1a-aac5cfbf1354">
+          <label for="job-title">Job Title:</label>
+          <input type="text" id="job-title" name="job-title" readonly>
+
+          <label for="applicant-name">Your Name:</label>
+          <input type="text" id="applicant-name" name="applicant-name" required>
+
+          <label for="applicant-email">Your Email:</label>
+          <input type="email" id="applicant-email" name="applicant-email" required>
+          <label for="resume">Link to your Resume</label>
+          <input id="resume" name="resume" type="url" required>
+          <label for="cover-letter">Linkt to your Cover Letter:</label>
+          <input id="cover-letter" name="cover-letter" type="url" required>
+
+          <button type="submit">Submit Application</button>
+          <div id="result" style="background-color: brown; color: aliceblue; font-weight: bold; border: 1px solid black; padding: 40px;"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    // Check if the user is registered
+    function isUserRegistered() {
+      return localStorage.getItem('isRegistered') === 'true';
+    }
+
+    // Handle click event on "View All Jobs" link
+    document.getElementById('view-jobs-link').addEventListener('click', function(event) {
+      event.preventDefault(); 
+      
+      if (!isUserRegistered()) {
+        alert('You need to register first.');
+      } else {
+        window.location.href = '/jobs'; 
+      }
+    });
+  </script>
+
+  <script src="./job.js"></script>
+  <script src="./addJob.js"></script>
+  <script src="./jobcont.js"></script>
+</body>
+</html>
