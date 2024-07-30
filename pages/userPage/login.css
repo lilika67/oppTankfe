@@ -1,0 +1,143 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../../Assets/images/workers\ \(1\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+/* input fields */
+input {
+  width: calc(100% - 24px);
+  padding: 8px; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 8px; 
+  margin-left: 3px;
+  margin-right: 3px; 
+
+}
+span a{
+  color: #6f1a07;
+  text-decoration: none;
+}
+span a:hover{
+  color: black;
+}
+/* style for buttons */
+button {
+  background-color: #6f1a07;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 5px;
+  width: calc(100% - 24px);
+  margin-top: 25px;
+  margin-bottom: 5%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+p{
+  font-size: 20px;
+  margin-left: 40%;
+  font-weight: bold;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  opacity: 20%;
+
+}
+h1{
+  color: #6f1a07;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.log{
+  margin: auto; 
+  width: 300px; 
+  background-color: #f1f1f1e0;
+  padding: 20px;
+ 
+}
+/*  styles for the cancel button */
+
+
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto; 
+  width: 300px; 
+  padding: 20px;
+}
+
+
+
+/* Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/*  styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  
+}
+form{
+  
+  margin: auto;
+  background-color: #f1f1f1e0;
+  
+}
+
+.log text{
+  font-size: 20px;
+  margin-left: 25%;
+  opacity: 0.5;
+  font-weight: bold;
+  align-items: center;
+  color: #f44336;
+}
+
+/* CSS for toast messages */
+.toastify-toast {
+  border-radius: 5px;
+}
+.toastify-error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+.toastify-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.hide{
+  display: none;
+}
+.back:hover + .hide{
+  display: block;
+  color:#6f1a07;
+  font-size: 15px;
+}

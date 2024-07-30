@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employer Dashboard</title>
+  <link rel="stylesheet" href="employerDash.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>Employer Dashboard</h2>
+      </div>
+      <ul class="sidebar-menu">
+        <li><a href="#add-job">Add Job</a></li>
+        <li><a href="#view-jobs">View Jobs</a></li>
+      </ul>
+    </aside>
+    <main class="main-content">
+      <section id="add-job">
+        <h1>Add Job</h1>
+        <form class="job-form" id="job-form">
+          <label for="job-title">Job Title:</label>
+          <input type="text" id="job-title" name="job-title" required>
+
+          <label for="company-name">Company Name:</label>
+          <input type="text" id="company-name" name="company-name" required>
+
+          <label for="location">Location:</label>
+          <input type="text" id="location" name="location" required>
+
+          <label for="salary">Salary:</label>
+          <input type="text" id="salary" name="salary" required>
+
+          <label for="job-description">Job Description:</label>
+          <textarea id="job-description" name="job-description" required></textarea>
+
+          <button type="submit">Add Job</button>
+        </form>
+      </section>
+      <section id="view-jobs">
+        <h1>View Jobs</h1>
+        <table class="jobs-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Title</th>
+              <th>Company</th>
+              <th>Salary</th>
+              <th>Location</th>
+            </tr>
+          </thead>
+          <tbody id="jobs-table-body">
+            <!-- Job rows will go here -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <script src="./employerDash.js"></script>
+</body>
+</html>

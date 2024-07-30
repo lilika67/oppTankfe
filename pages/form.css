@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../Assets/images/workers\ \(1\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+
+/* Style all input fields */
+input {
+  width: calc(100% - 24px);
+  padding: 8px; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 8px; 
+  margin-left: 3px;
+  margin-right: 3px; 
+}
+
+
+/* Style the submit button */
+input[type=submit] {
+  
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  background-color:#6f1a07 ;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+  border-radius: 45px;
+  background-color: #f0b387;
+}
+
+/*  container inputs */
+.container {
+  margin: auto; 
+  width: 300px; 
+  background-color: #f1f1f1e0;
+  padding: 20px;
+  border-radius: 5%;
+ 
+  
+}
+
+p a{
+  color: #6f1a07;
+}
+p a:hover{
+  color: #000;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display: none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+ /* CSS for toast messages */
+ .toastify-toast {
+  border-radius: 5px;
+}
+.toastify-error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+.toastify-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.hide{
+  display: none;
+}
+.back:hover + .hide{
+  display: block;
+  color:#d46e25;
+  font-size: 15px;
+}

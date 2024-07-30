@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>registration form</title>
+  <link rel="stylesheet" href="./form.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.11.1/toastify.min.css">
+</head>
+<body>
+  <!-- <div class="back"><a  href="../index.html"><img src="../images/back.png"></a></div>
+<div class="hide">Go back to home page</div> -->
+<div id="toast-container" class="toast-container"></div>
+  <h1 style="color: aliceblue; text-align: center;">Registration Form</h1>
+  <div class="container">
+    <form action="" id="registration">
+      <label for="usrname">FirstName</label>
+      <input type="text" id="fname" name="usrname" >
+      <label for="usrname">LastName</label>
+      <input type="text" id="lname" name="usrname" >
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" >
+      <label for="psw">Password</label>
+     <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+     <label for="psw">ConfirmPassword</label>
+     <input type="password" id="cpsw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain match with password" >
+     <a href="/login/dash.html"><input type="submit" value="Submit"></a>
+     <p class="para-2">
+      Already have an account? <a href="./userPage/login.html">Login here</a>
+    </p>
+    </form>
+  </div>
+
+  
+  <script src="./signup.js"></script>
+  <script src="./dash.js"></script> 
+  <script src="./userPage/signup.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.11.1/toastify.min.js"></script>
+
+</body>
+</html>
