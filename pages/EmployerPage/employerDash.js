@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     try {
-      const response = await fetch('http://localhost:3000/api/v1/job', {
+      const response = await fetch('https://opportunitytank-penx.onrender.com/api/v1/job', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Function to fetch jobs from the API
   async function fetchJobs() {
     try {
-      const response = await fetch('http://localhost:3000/api/v1/job');
+      const response = await fetch('https://opportunitytank-penx.onrender.com/api/v1/job');
       const { alljobs } = await response.json();
 
       // Clear the table body before adding new rows

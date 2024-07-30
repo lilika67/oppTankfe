@@ -1,6 +1,6 @@
 const signUp = async (user) => {
   try {
-    const response = await fetch('http://localhost:3000/api/v1/users/signUp', {
+    const response = await fetch('https://opportunitytank-penx.onrender.com/api/v1/users/signUp', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
