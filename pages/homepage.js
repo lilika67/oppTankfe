@@ -33,7 +33,7 @@ function showErrorMessage(message) {
       text: message || "Error: Something went wrong!",
       duration: 3000,
       close: true,
-      backgroundColor:"blue",
+      backgroundColor:"chocolate",
       className: "toastify-error"
   }).showToast();
 }

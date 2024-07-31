@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
       } else if (userData.user.role === 'talent') {
         window.location.href = '/pages/userPage/resource.html'; 
       } else {
-        window.location.href = '../employerDash.html'
+        window.location.href = '/pages/EmployerPage/employerDash.html'
       }
     } catch (error) {
       showErrorMessage('Error: Something went wrong during login');

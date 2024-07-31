@@ -12,14 +12,14 @@ const signUp = async (user) => {
       const responseData = await response.json();
       console.log(responseData);
       showSuccessMessage(responseData.message);
-      // window.location.href = 'login.html';
+      window.location.href = './form.html';
     } else {
       const errorData = await response.json();
       showErrorMessage(errorData.error);
     }
   } catch (error) {
     
-    showErrorMessage('Something went wrong');
+    showErrorMessage('Email already exists');
   }
 };
 
@@ -62,7 +62,7 @@ function showSuccessMessage(message) {
 // Function to show error message
 function showErrorMessage(message) {
   Toastify({
-      text: message || "Error: Something went wrong!",
+      text: message || "Email already exists in our database!",
       duration: 3000,
       close: true,
       backgroundColor:"red",
