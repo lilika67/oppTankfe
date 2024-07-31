@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chatbot.css">
+    <title>Chatbot</title>
+</head>
+<body>
+    <div id="chatbot-modal" class="modal">
+        <div id="chat-container" class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="chat-messages"></div>
+            <div id="predefined-questions">
+                <p>Click on a question to get an answer:</p>
+                <div class="question-container">
+                    <button class="question">How can I create my new account?</button>
+                    <div class="answer"></div>
+                </div>
+                <div class="question-container">
+                    <button class="question">How can I apply for a job?</button>
+                    <div class="answer"></div>
+                </div>
+                <div class="question-container">
+                    <button class="question">How can I view my job applications?</button>
+                    <div class="answer"></div>
+                </div>
+                <div class="question-container">
+                    <button class="question">How can I track my progress?</button>
+                    <div class="answer"></div>
+                </div>
+                <div class="question-container">
+                    <button class="question">How can I access my account?</button>
+                    <div class="answer"></div>
+                </div>
+                <div class="question-container">
+                    <button class="question">How can I change my password?</button>
+                    <div class="answer"></div>
+                </div>
+                <div class="question-container">
+                    <button class="question">How can I logout?</button>
+                    <div class="answer"></div>
+                </div>
+                <div class="question-container">
+                    <button class="question">What is opportunityTank?</button>
+                    <div class="answer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="chatbot-button" class="floating-button">Chat</button>
+    <script src="chatbot.js"></script>
+</body>
+</html>
