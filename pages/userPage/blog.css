@@ -10,13 +10,13 @@ body {
 header {
   background-color: #6f1a07;
   color: white;
-  padding: 1rem 0;
+  padding: 5px;
   text-align: center;
 }
 
 header nav ul {
   list-style: none;
-  padding: 0;
+  
 }
 
 header nav ul li {
