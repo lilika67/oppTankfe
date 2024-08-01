@@ -16,6 +16,7 @@ Our mission is to facilitate connections that lead to job placements and to offe
 Clone the project using this command:
 
 Clone the project by: git clone https://github.com/lilika67/oppTankfe.git
+
 Open the root folder and access the project by opening index.html in your browser.
 
 Register to access resources, blogs, and apply for jobs.
