@@ -1,5 +1,4 @@
-**OpportunityTank**
-
+**OPPORTUNITYTANK**
 
 **DESCRIPTION**
 ***
@@ -9,6 +8,7 @@ OpportunityTank is designed to be a catalyst for job creation and employment opp
 Our mission is to facilitate connections that lead to job placements and to offer resources and tools that help users prepare for the job market, enhancing their employability and career prospects.
 
 **Installation and Run Commands**
+***
 
 
 Follow these steps to install and run the project:
@@ -22,7 +22,7 @@ Open the root folder and access the project by opening index.html in your browse
 Register to access resources, blogs, and apply for jobs.
 
 **Features**
-
+***
 
 **Registration Page**: Sign up to create your account and access all features.
 
@@ -32,7 +32,7 @@ Register to access resources, blogs, and apply for jobs.
 **Employer Dashboard**: Employers can add job listings and manage applications.
 
 **Usage**
-
+***
 **Registration**
 Create an account to access exclusive resources, read insightful blogs, and apply for job opportunities.
 **Login**
@@ -47,6 +47,7 @@ Manage the platform, oversee user activity, and ensure a smooth experience for a
 Post job listings, review applications, and connect with potential candidates.
 
 **Contributing**
+***
 We welcome contributions to OpportunityTank! Please follow these steps to contribute:
 
 -Fork the repository.
@@ -57,6 +58,7 @@ We welcome contributions to OpportunityTank! Please follow these steps to contri
 -Create a new Pull Request.
 
 **License**
-This project is licensed under the MIT License - see the LICENSE file for details.
+***
+This project is licensed under the MIT License 
 
 
