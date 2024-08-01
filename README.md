@@ -1,12 +1,16 @@
 **OpportunityTank**
 
 
-**Description**
+**DESCRIPTION**
+***
+
 OpportunityTank is designed to be a catalyst for job creation and employment opportunities for young people in Rwanda and across Africa. Our platform provides a centralized space where users can showcase their skills, connect with potential employers, and access job preparation resources. By bridging the gap between skilled young individuals and employers worldwide, OpportunityTank aims to reduce unemployment and underemployment among the youth.
 
 Our mission is to facilitate connections that lead to job placements and to offer resources and tools that help users prepare for the job market, enhancing their employability and career prospects.
 
 **Installation and Run Commands**
+
+
 Follow these steps to install and run the project:
 
 Clone the project using this command:
@@ -18,6 +22,8 @@ Open the root folder and access the project by opening index.html in your browse
 Register to access resources, blogs, and apply for jobs.
 
 **Features**
+
+
 **Registration Page**: Sign up to create your account and access all features.
 
 **Login Page**: Log in to your account to start using the platform.
