@@ -27,23 +27,33 @@ Register to access resources, blogs, and apply for jobs.
 **Registration Page**: Sign up to create your account and access all features.
 
 **Login Page**: Log in to your account to start using the platform.
+
 **User Page**: Personalize your profile and manage your applications.
+
 **Admin Dashboard**: Admins can manage users, jobs, and platform content.
+
 **Employer Dashboard**: Employers can add job listings and manage applications.
 
 **Usage**
 ***
 **Registration**
+
 Create an account to access exclusive resources, read insightful blogs, and apply for job opportunities.
+
 **Login**
+
 Log in to your account to utilize all features of the platform.
+
 **User Page**
+
 Customize your profile, showcase your skills, and track your job applications.
 
 **Admin Dashboard**
+
 Manage the platform, oversee user activity, and ensure a smooth experience for all users.
 
 **Employer Dashboard**
+
 Post job listings, review applications, and connect with potential candidates.
 
 **Contributing**
@@ -51,10 +61,15 @@ Post job listings, review applications, and connect with potential candidates.
 We welcome contributions to OpportunityTank! Please follow these steps to contribute:
 
 -Fork the repository.
+
 -Create a new branch (git checkout -b feature/your-feature).
+
 -Make your changes.
+
 -Commit your changes (git commit -m 'Add some feature').
+
 -Push to the branch (git push origin feature/your-feature).
+
 -Create a new Pull Request.
 
 **License**
@@ -67,6 +82,7 @@ https://opp-tankfe-web.vercel.app/
 ***
 
 **ScreenShoot**
+
 ![image](https://github.com/user-attachments/assets/be519a77-8102-463e-b2cb-7ea6d76fdd06)
 
 ![image](https://github.com/user-attachments/assets/8549430f-7081-4b0d-9815-df7c02f4ed8a)
