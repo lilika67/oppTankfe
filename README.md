@@ -11,12 +11,11 @@ Our mission is to facilitate connections that lead to job placements and to offe
 ***
 
 
-Follow these steps to install and run the project:
+**Follow these steps to install and run the project:**
 
 Clone the project using this command:
-bash
-Copy code
-git clone <repository-url>
+
+Clone the project by: git clone https://github.com/lilika67/oppTankfe.git
 Open the root folder and access the project by opening index.html in your browser.
 
 Register to access resources, blogs, and apply for jobs.
